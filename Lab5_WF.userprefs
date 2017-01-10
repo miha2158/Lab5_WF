@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Lab5_WF\Lab5_WF.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab5_WF\Tasks.cs">
+    <Files>
+      <File FileName="Lab5_WF\Form1.cs" Line="1" Column="1" />
+      <File FileName="Lab5_WF\Form1.Designer.cs" Line="1" Column="1" />
+      <File FileName="Lab5_WF\Program.cs" Line="1" Column="1" />
+      <File FileName="Lab5_WF\Tasks.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

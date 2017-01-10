@@ -1,0 +1,9 @@
+c:\users\user\documents\visual studio 2015\Projects\Lab5_WF\Lab5_WF\bin\Debug\Lab5_WF.exe.config
+C:\Users\user\documents\visual studio 2015\Projects\Lab5_WF\Lab5_WF\bin\Debug\Lab5_WF.exe
+C:\Users\user\documents\visual studio 2015\Projects\Lab5_WF\Lab5_WF\bin\Debug\Lab5_WF.pdb
+C:\Users\user\documents\visual studio 2015\Projects\Lab5_WF\Lab5_WF\obj\Debug\Lab5_WF.csprojResolveAssemblyReference.cache
+C:\Users\user\documents\visual studio 2015\Projects\Lab5_WF\Lab5_WF\obj\Debug\Lab5_WF.Form1.resources
+C:\Users\user\documents\visual studio 2015\Projects\Lab5_WF\Lab5_WF\obj\Debug\Lab5_WF.Properties.Resources.resources
+C:\Users\user\documents\visual studio 2015\Projects\Lab5_WF\Lab5_WF\obj\Debug\Lab5_WF.csproj.GenerateResource.Cache
+C:\Users\user\documents\visual studio 2015\Projects\Lab5_WF\Lab5_WF\obj\Debug\Lab5_WF.exe
+C:\Users\user\documents\visual studio 2015\Projects\Lab5_WF\Lab5_WF\obj\Debug\Lab5_WF.pdb
