@@ -39,7 +39,7 @@ namespace Lab5_WF
         
         private static int arrayType;
 
-
+        #region StartWork
 
         private void startB_1Dim_Click(object sender, EventArgs e)
         {
@@ -121,6 +121,10 @@ namespace Lab5_WF
             ActionName.Text = Actions[arrayType];
         }
 
+        #endregion
+
+        #region Preparation
+
         private void CreateButton_Click(object sender, EventArgs e)
         {
             taskBox.Visible = false;
@@ -134,6 +138,20 @@ namespace Lab5_WF
             ActionName.Text = Arrays[arrayType];
             ActionName.Visible = true;
         }
+
+        private void ActionButton_Click(object sender, EventArgs e)
+        {
+            DoActionButton.Visible = true;
+            taskBox.Clear();
+            taskBox.Visible = true;
+            taskBox.Focus();
+            if (arrayType == 2)
+                RFButton.Visible = true;
+        }
+
+        #endregion
+
+        #region Random
 
         private void RandFillButton_Click(object sender, EventArgs e)
         {
@@ -167,9 +185,13 @@ namespace Lab5_WF
             tempInts = null;
         }
 
+        #endregion
+
+        #region Work
+
         private void DoCreateButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Любой неправильно введённый символ будет заменён на 0","Понтно?");
+            //MessageBox.Show("Любой неправильно введённый символ будет заменён на 0","Понтно?");
             DoCreateButton.Visible = false;
             RandFillButton.Visible = false;
             if (arrayType != 0)
@@ -197,16 +219,6 @@ namespace Lab5_WF
             }
             ActionButton.Focus();
             textBox.ReadOnly  = true;
-        }
-
-        private void ActionButton_Click(object sender, EventArgs e)
-        {
-            DoActionButton.Visible = true;
-            taskBox.Clear();
-            taskBox.Visible = true;
-            taskBox.Focus();
-            if (arrayType == 2)
-                RFButton.Visible = true;
         }
 
         private void DoActionButton_Click(object sender, EventArgs e)
@@ -245,6 +257,8 @@ namespace Lab5_WF
             RFButton.Visible = false;
         }
 
+        #endregion
+
         private void textBox_TextChanged(object sender, EventArgs e)
         {
             int point = textBox.SelectionStart;
@@ -270,8 +284,14 @@ namespace Lab5_WF
                     }
                     textBox.Text = output;
                 }
-
-            textBox.SelectionStart = point;
+            try
+            {
+                textBox.SelectionStart = point;
+            }
+            catch (Exception)
+            {
+                
+            }
         }
 
         private void taskBox_TextChanged(object sender, EventArgs e)
